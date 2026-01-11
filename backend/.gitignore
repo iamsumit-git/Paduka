@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Uploads (Local storage matches should not be committed)
+uploads/
+*.jpg
+*.png
+*.jpeg
+*.glb
+*.gltf
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
