@@ -9,6 +9,10 @@
     "multer": "^2.0.2",
     "stripe": "^20.1.2"
   },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
   "devDependencies": {
     "nodemon": "^3.1.11"
   }
